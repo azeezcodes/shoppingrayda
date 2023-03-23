@@ -15,10 +15,10 @@ const Logo = () => {
                   <p className="logotxt">
                      Starts in: 3 days : 2 hours : 24 minutes{" "}
                   </p>
-                  <div className="innerlogo"> 
+                  <div className="innerlogo">
                      <Chip
                         size="medium"
-                  
+                        sx={{ backgroundColor: "#FFFAEB" }}
                         icon={
                            <CircleIcon
                               sx={{ fontSize: "10px" }}
@@ -27,7 +27,7 @@ const Logo = () => {
                         }
                         label="Not Live"
                      />
-                     <p className="layertxt">Layers Auction </p>
+                     <p className="layertxt ">Layers Auction </p>
                   </div>
                </div>
             </div>
