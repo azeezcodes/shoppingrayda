@@ -1,0 +1,64 @@
+.head {
+   display: flex;
+   justify-content: space-between;
+}
+.texthead {
+   display: flex;
+   flex-direction: column;
+}
+.biglogobox {
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+   border-radius: 12px;
+   height: 292px;
+   margin-top: 40px;
+   display: flex;
+   flex-direction: column;
+   padding: 24px 24px;
+   position: relative;
+}
+.gradient {
+   /* position: relative; */
+   height: 192px;
+   border-radius: 12px;
+   background: linear-gradient(
+      140deg,
+      rgba(179, 80, 248, 1) 0%,
+      rgba(179, 80, 248, 1) 40%,
+      rgba(253, 228, 127, 1) 100%
+   );
+   z-index: 1;
+}
+
+.logocir {
+   object-fit: cover;
+   height: 174px;
+   width: 174px;
+   position: absolute;
+   bottom: 10px;
+   left: 40px;
+   z-index: 3;
+}
+.logotxt {
+   font-weight: 600;
+   font-size: 24px;
+}
+.txblock {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.leftlogo {
+   margin-left: 200px;
+   display: flex;
+   flex-direction: column;
+}
+.innerlogo {
+   display: flex;
+   gap: 5px;
+   align-items: center;
+}
+.layertxt {
+   font-weight: 400;
+   font-size: 16px;
+   color: #475467;
+}
