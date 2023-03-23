@@ -9,20 +9,24 @@ import Features from './Features';
 
 function App() {
   return (
-     <div className="App">
+     <div className="App p-10">
         <Header />
         <Divider sx={{ marginTop: "20px" }} />
 
         <Logo />
-        <div className="drop-shadow-lg rounded-md">
-           <p>Featured Items</p>
+        <div className="drop-shadow-lg border border-[#EAECF0] p-10 rounded-md h-fit mt-8">
+           <p className="font-semibold text-[18px]">Featured Items</p>
 
-           <Divider />
-           
-           <Features />
+           <Divider sx={{ marginTop: "26px", marginBottom: "24px" }} />
+
+           <div>
+              {" "}
+              <Features />
+           </div>
         </div>
      </div>
   );
 }
 
 export default App;
+

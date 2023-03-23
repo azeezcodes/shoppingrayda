@@ -8,10 +8,10 @@ const Logo = () => {
    return (
       <div className="biglogobox">
          <div className="gradient"></div>
-         <img src="/content.png" alt="logocir" className="logocir" />
+         <img src="/content.png" alt="logocir" className="logocir hidden md:block" />
          <div className="txblock">
             <div>
-               <div className="leftlogo">
+               <div className="leftlogo hidden md:block">
                   <p className="logotxt">
                      Starts in: 3 days : 2 hours : 24 minutes{" "}
                   </p>
