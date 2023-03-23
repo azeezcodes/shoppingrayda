@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import Button from "@mui/material/Button";
 import Divider from "@mui/material/Divider";
-
 import { useQuery } from "@tanstack/react-query";
 
 // import Img1 from '../public/1png';
